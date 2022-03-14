@@ -8,6 +8,18 @@ on:
 permissions:
       id-token: write
       contents: read
+directCommands:
+- uid: az_webapp_browse
+  name: az webapp browse
+  summary: Open a web app in a browser.
+  description: ''
+  syntax: >-
+    az webapp browse [--ids]
+                     [--logs]
+                     [--name]
+                     [--resource-group]
+                     [--slot]
+                     [--subscription]
       
 jobs: 
   build-and-deploy:
